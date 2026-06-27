@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#F3F4F6;
+    padding:40px;
+}
+
+.contact-container{
+    max-width:1000px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    margin-bottom:30px;
+    color:gray;
+}
+
+.contact-box{
+    display:flex;
+    gap:30px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-info{
+    flex:1;
+}
+
+.contact-info h2{
+    margin-bottom:20px;
+}
+
+.contact-info p{
+    margin:15px 0;
+}
+
+.contact-form{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.contact-form button{
+    width:100%;
+    background:#131921;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    height:45px;
+}
+
+.contact-form button:hover{
+    background:#232F3E;
+}
+
+@media(max-width:768px){
+
+    .contact-box{
+        flex-direction:column;
+    }
+
+}
+    </style>
+   
+
+    <div class="contact-container">
+
+        <h1>📞 Contact Us</h1>
+        <p class="subtitle">
+            We'd love to hear from you. Send us your questions or feedback.
+        </p>
+
+        <div class="contact-box">
+
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+
+                <p>📧 Email: support@megamart.com</p>
+                <p>📱 Phone: +91 9876543210</p>
+                <p>📍 Location: Vijayawada, Andhra Pradesh</p>
+
+                <h3>Follow Us</h3>
+                <p>📘 Facebook</p>
+                <p>📸 Instagram</p>
+                <p>🐦 Twitter</p>
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Your Email" required>
+
+                <textarea rows="6" placeholder="Your Message"></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

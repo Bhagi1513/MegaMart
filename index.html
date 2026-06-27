@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🛍️MegaMart</div>
+        <div class="btn">
+            <button>Signin</button>
+            <button>Getstarted</button>
+        </div>
+        </header>
+        <nav>
+            <div class="menutoggle"  id="menutoggle" onclick="togglemenu()" >☰</div>
+            <div class="search"><input type="text" id="search-box" placeholder="search progucts or items">
+            <button class="srch">search</button></div>
+           
+            <div class="nav-links" id="nav-links">
+                <a href="#home"> 🏠Home</a>
+                <a href="cart.html"> 🛒Cart</a>
+                <a href="wishlist.html">❤️Wishlist</a>
+                <a href="contact.html">📞contact</a>
+            </div>
+            
+        </nav>
+        <section class="products">
+    <h2>Featured Products</h2>
+
+    <div class="product-grid" id="products-container">
+     <div id="loading">loading...</div>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
