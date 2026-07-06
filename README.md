@@ -3,7 +3,7 @@
 🔗 Live Demo:
 MegaMart Live Website
 You can view the project here:
-🔗 [live-link]( https://megamart2.bytexl.live/)
+🔗
 Project Overview:
 
 MegaMart is a responsive E-commerce web application built to provide users with a smooth online shopping experience. The website allows customers to browse products, search items, view product details, add products to the cart, and manage their shopping efficiently. The project focuses on a clean UI, responsive design, and easy navigation.
@@ -36,4 +36,4 @@ Login/Profile (if available)
 🎯 Objective
 
 The main objective of MegaMart is to provide a simple, attractive, and responsive online shopping platform where users can easily explore products and manage purchases with an intuitive interface.
-
+🔗 [live-link]( https://megamart2.bytexl.live/)
